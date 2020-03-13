@@ -39,3 +39,21 @@ html, body{
 	display: block;
 }
 
+
+@media (min-width:960px){
+	body{
+		background: red;
+	}
+	.row{
+		display: flex;
+	}
+}
+
+@media (min-width:2000px){
+	body{
+		background-color:blue;
+	}
+}
+
+
+
